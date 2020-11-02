@@ -70,9 +70,17 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X) == true)
+        // check if the dialogue is open
+        if (FindObjectOfType<DialogueManager>().animator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "DialogueBox_Open")
         {
-            DisplayNextSentence();
+            if (Input.GetKeyDown(KeyCode.C) == true)
+            {
+                DisplayNextSentence();
+            }
+            else if (Input.GetKeyDown(KeyCode.Z) == true)
+            {
+                EndDialogue();
+            }
         }
     }
 }

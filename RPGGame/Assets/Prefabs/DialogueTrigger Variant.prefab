@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1468316149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798793473350988188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051c39215e0a2df44af7b1f001441635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableName: BookShelf
+--- !u!1001 &8080568122775551036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6265842098296442272, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442301, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Fire is the element of energy and devotion, of passion and strength.
+        Fire people are strong-willed, opinionative, confident and powerful. They're
+        driven, and strive to achieve goals. They can be stubborn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: Water is the element of intellect, of calmness, of beauty. Water people
+        are often laid-back, and 'go with the flow'. They're often good-looking,
+        intelligent, and perceptive. Many have strong magical power, making ideal
+        Mages or Wizards.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Air is the element of adventure, of wandering, of drifting, of dreaming.
+        Air people are dreamers, but they're floaty and rarely focused on one thing
+        for long. Many travellers and wanderers and Adventurers are of the Air element,
+        'living on the edge of the wind'.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Earth is the element of wisdom, common sense, and hardiness. Earth people
+        are usually tough and practical, and most certainly 'down to Earth'. They
+        are wise and understanding, trustworthy, honest, and reliable. They can be
+        extremely devoted to a cause or way of life, and are also good at solving
+        puzzles.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Light is the elemental epitome of goodness and justice. People with
+        this element will live to Do Good, helping people wherever they can. They
+        live for others moreso than for themselves. They are the most helpful, kind,
+        and caring of elements, and often become Heroes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: Dark is the elemental epitome of evil. Dark people are inherently self-centered
+        and manipulative, often violent. They only do things to benefit themselves,
+        and care little for other people. They are the polar opposites of Light people.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: Ether is still a mystery, as it occurs so rarely as to be considered
+        almost mythical. Not much is written about it, and what is written is not
+        highly reliable.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: There are rumours of an eighth element, but that is all they are; rumours.
+        Myths. There's no known evidence to support such claims.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: The personality traits mentioned for each element in this book are the
+        most common for those elements, but are by no means the only personalities
+        such people can have. Good-aligned Dark-elemental people are not unheard
+        of (take the Adventurer Bernard Stormkiller, for example).
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Everything and everyone in the world has an innate affinity to at least
+        one of several magical elements. People and spells are all monoelemental,
+        and their Element determines their power, potential, and, in the case of
+        people, their personalities.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: There are seven known elements, divided into three distinct groups.
+        There are the Natural Elements, which Nature is composed largely of; there
+        are the Moral Elements, which are born from the essence of free will and
+        the spirit of life and choice; there is also the odd Spiritual element group,
+        which eludes many thaumatologists to this day.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: There are four Natural elements - Fire, Water, Air, and Earth - two
+        Moral elements - Dark and Light - and only one known Spiritual element -
+        Ether - though Ether's existence is largely considered mythical.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265842098296442303, guid: 301fcd3cc8495114b94af302ccd90021,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: Being creatures of free will, our destinies are for us to choose, not
+        our inherent elements.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 301fcd3cc8495114b94af302ccd90021, type: 3}
+--- !u!1 &2798793473350988188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6265842098296442272, guid: 301fcd3cc8495114b94af302ccd90021,
+    type: 3}
+  m_PrefabInstance: {fileID: 8080568122775551036}
+  m_PrefabAsset: {fileID: 0}

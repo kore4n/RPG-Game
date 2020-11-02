@@ -8,9 +8,8 @@ public class PlayerController : MonoBehaviour
     public Transform movePoint;
     public LayerMask whatStopsMovement;
 
-    // TODO: Player movement
     // store player movement animation
-    //public Animator anim;
+    public Animator anim;
 
     // bool to see if player exists
     // used when changing between scenes
@@ -24,6 +23,15 @@ public class PlayerController : MonoBehaviour
     // last move to determine orientation
     public Vector2 lastMove;
 
+    // only used for animations
+    Vector2 movement;
+
+    private Collider2D collision;
+
+    private bool isColliding;
+
+    private Interactable interaction;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +39,7 @@ public class PlayerController : MonoBehaviour
         movePoint.parent = null;
 
         // run if the player does not exist
-        if(!playerExists)
+        if (!playerExists)
         {
             playerExists = true;
             // don't destroy scripts and gameobjects attached
@@ -42,13 +50,69 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
 
-        Debug.Log(canMove);
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        // check if it can be interacted with
+        Interactable interaction = collision.gameObject.GetComponent<Interactable>();
+
+        if (interaction != null)
+        {
+            isColliding = true;
+            this.collision = collision;
+            this.interaction = interaction;
+
+            TryToMoveIntoScene(collision, interaction);
+        }
+        //else
+        //{
+        //    isColliding = false;
+        //}
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        isColliding = false;
+    }
+
+    void Interact(Collider2D collision, Interactable interaction)
+    {
+        // interact with objects
+            
+        // if it's a bookshelf, begin dialogue
+        if (interaction.interactableName == "BookShelf")
+        {
+            DialogueTrigger text = collision.gameObject.GetComponent<DialogueTrigger>();
+            text.TriggerDialogue();
+        }
+        else if (interaction.interactableName == "Door")
+        {
+            LoadNewArea door = collision.gameObject.GetComponent<LoadNewArea>();
+            door.EnterDoor();
+        }
+    }
+
+    void TryToMoveIntoScene(Collider2D collision, Interactable interaction)
+    {
+        if (interaction.interactableName == "Opening")
+        {
+            LoadNewArea opening = collision.gameObject.GetComponent<LoadNewArea>();
+            opening.EnterOpening();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.X) == true)
+        {
+            if (isColliding == true)
+            {
+                Interact(collision, interaction);
+            }
+        }
+
         // check if the dialogue is open
         if (FindObjectOfType<DialogueManager>().animator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "DialogueBox_Open")
         {
@@ -60,8 +124,17 @@ public class PlayerController : MonoBehaviour
             canMove = true;
         }
 
+        // check if the player can move
         if (canMove == true)
         {
+            // perform animations
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            anim.SetFloat("Horizontal", movement.x);
+            anim.SetFloat("Vertical", movement.y);
+            anim.SetFloat("Speed", movement.sqrMagnitude); 
+
             // move player towards the final destination
             transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
             // only get an input if the player is near the destination

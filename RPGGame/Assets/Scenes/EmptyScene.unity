@@ -528,6 +528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 5447248938275339603, guid: 720acb9926dc44843bcf16af63a0d325,
+        type: 3}
+      propertyPath: levelToLoad
+      value: Town1
+      objectReference: {fileID: 0}
     - target: {fileID: 5447248938275339605, guid: 720acb9926dc44843bcf16af63a0d325,
         type: 3}
       propertyPath: m_LocalPosition.x
