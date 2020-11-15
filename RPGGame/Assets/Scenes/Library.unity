@@ -123,6 +123,139 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &62870766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958431438}
+    m_Modifications:
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Cxlcxlus For Dummies
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'It''s a book, apparently about some subdivision of math? The title
+        is scratched. It was discovered in some ruins a few years ago, and it goes
+        on about the relationships between variables? Graphs? Tangent lines? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'Either way, it''s been It''s been judged by many of today''s lead scientists
+        and mathematicians as "science fiction", so it''s probably not important.
+        It''s not like math is important anyways. Feel free to ignore it. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Thankfully, this is highly unlikely as mana can be easily replenished
+        through eating, or more quickly through highly concentrated mana, refined
+        into liquid form carried around in glass bottles. "Mana Potions", so to speak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Air is the element of adventure, of wandering, of drifting, of dreaming.
+        Air people are dreamers, but they're floaty and rarely focused on one thing
+        for long. Many travellers and wanderers and Adventurers are of the Air element,
+        'living on the edge of the wind'.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Mana is present all around us at all times, and is slowly absorbed by
+        all creatures as the body develops. Although, mana is denser in the atmosphere
+        in some areas, leading to the creatures (including monsters) born there becoming
+        stronger than usual. Thankfully, mana's density around our town is very low.
+        Phew!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b740102e6dfdd834eafe00ee355090e3, type: 3}
+--- !u!4 &62870767 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 62870766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &83982396
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -244,7 +377,7 @@ PrefabInstance:
     - target: {fileID: 5447248938275339605, guid: 720acb9926dc44843bcf16af63a0d325,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5447248938275339605, guid: 720acb9926dc44843bcf16af63a0d325,
         type: 3}
@@ -264,7 +397,12 @@ PrefabInstance:
     - target: {fileID: 5447248938275339605, guid: 720acb9926dc44843bcf16af63a0d325,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447248938275339605, guid: 720acb9926dc44843bcf16af63a0d325,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 720acb9926dc44843bcf16af63a0d325, type: 3}
@@ -1380,6 +1518,167 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &596127852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958431438}
+    m_Modifications:
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Elemental Crystals
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: The Elemental Crystals are very special kinds of crystals. They power
+        significant aspects of life everywhere on the planet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: The elemental crystals were created by YALORT when he made the world,
+        and they provide Belfan with all of its magical energy and keep it alive.
+        They consist of pure elemental magical energy, and as such have the power
+        to grant people extreme power; for this reason, they have been sought by
+        Adventurers and Villains alike.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'The Fire Crystal possesses the power of heat and flames. It keeps the
+        world warm so that things can grow and thrive, and its power is harnessed
+        every time a flame burns, magical or natural. It is located in a temple in
+        Fengue.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: The Light Crystal, being the physical manifestation of the Goodness
+        in Man's heart, is the greatest treasure of Goznor, kept within the Castle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: The location of the Dark Crystal is unknown; this is probably for the
+        best, since it is the crystal most often sought by those who wish to inflict
+        evil on the world.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'The Water Crystal keeps the waters pure and flowing and the rains pouring.
+        It is vital for life on Belfan. It is also responsible for Man''s rational
+        thoughts, or so it has been said. It can be found in Hadris.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: 'The Earth Crystal is responsible for the lives of beasts and plants
+        on Belfan. Its energy keeps them growing and breeding. It is held in a sacred
+        temple within the Lifewood in Fengue.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 'The Air Crystal keeps the winds blowing, and the air clean. The city
+        of Aeropolis was built around the temple in which it can still be found.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: The location of the Dark Crystal is unknown; this is probably for the
+        best, since it is the crystal most often sought by those who wish to inflict
+        evil on the world.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b740102e6dfdd834eafe00ee355090e3, type: 3}
+--- !u!4 &596127853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 596127852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &718696125
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,6 +7007,141 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1001 &878412139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958431438}
+    m_Modifications:
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Ether Crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'The Ether Crystal is the Heart of Belfan. A doorway through which souls
+        can pass from the soulplanes into living, corporeal bodies in this world.
+
+        Without
+        the Ethereal Crystal, all life would be soulless and emotionless.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: One who has power over the Ethereal Crystal has power over the world
+        itself, and it is for this reason that it is highly sought by Heroes and
+        Villains. However, its location is quite the mystery indeed!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Thankfully, this is highly unlikely as mana can be easily replenished
+        through eating, or more quickly through highly concentrated mana, refined
+        into liquid form carried around in glass bottles. "Mana Potions", so to speak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Air is the element of adventure, of wandering, of drifting, of dreaming.
+        Air people are dreamers, but they're floaty and rarely focused on one thing
+        for long. Many travellers and wanderers and Adventurers are of the Air element,
+        'living on the edge of the wind'.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Mana is present all around us at all times, and is slowly absorbed by
+        all creatures as the body develops. Although, mana is denser in the atmosphere
+        in some areas, leading to the creatures (including monsters) born there becoming
+        stronger than usual. Thankfully, mana's density around our town is very low.
+        Phew!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b740102e6dfdd834eafe00ee355090e3, type: 3}
+--- !u!4 &878412140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 878412139}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &958431436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6753,15 +7187,325 @@ Transform:
   - {fileID: 446675099}
   - {fileID: 8940624111395480529}
   - {fileID: 1468316147}
+  - {fileID: 1297646387}
+  - {fileID: 62870767}
   - {fileID: 226851330}
+  - {fileID: 1626362892}
+  - {fileID: 596127853}
+  - {fileID: 878412140}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1297646387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1572631791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1468316147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
     type: 3}
   m_PrefabInstance: {fileID: 8080568123539129806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1572631791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958431438}
+    m_Modifications:
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Mana & Its Many Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Mana is the "lifeblood" of the soul, or its "essence" so to speak that
+        flows through all living creatures. The body, soul, and spirit are the 3
+        main components that make up every living creature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: All living things contain some amount of mana, and is as essential for
+        a soul's life as blood is to the body. Without mana, the body may stay intact,
+        but the soul suffers, and eventually dies if drained for long enough.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Thankfully, this is highly unlikely as mana can be easily replenished
+        through eating, or more quickly through highly concentrated mana, refined
+        into liquid form carried around in glass bottles. "Mana Potions", so to speak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: If the body is damaged enough, then both the soul and spirit of the
+        creature are eventually ejected before moving on into the afterlife.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: The spirit is the least understood, but magicians understand that it's
+        charged by willpower, and enhances the power of magic.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Mana is present all around us at all times, and is slowly absorbed by
+        all creatures as the body develops. Although, mana is denser in the atmosphere
+        in some areas, leading to the creatures (including monsters) born there becoming
+        stronger than usual. Thankfully, the mana density around our town is very
+        low. Phew!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Mana charges the soul, which along with the body and the soul, make
+        up the bodies of all living creatures. It's possible to transfer the soul
+        to another body, such is the work of necromancers, although this is highly
+        frowned upon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: Mana can be channeled by all creatures into many different forms, of
+        many different elements, creating "Magic," and can be used for anything between
+        healing, fighting, and everyday use, like lighting a fire to cook with.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[0]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[1]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[2]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[3]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[4]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[5]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[6]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.names.Array.data[7]
+      value: Mana and Its Uses
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b740102e6dfdd834eafe00ee355090e3, type: 3}
+--- !u!1001 &1626362891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958431438}
+    m_Modifications:
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Crystals
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Regular crystals are just shiny rocks. However, it was discovered long
+        ago that if enough magic was infused into one, that crystal would permanently
+        gain the traits of the element of that magic, giving it special properties.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Magic crystals are heavily sought after, and can also be harvested from
+        monsters, as they're formed during their birth. When held close to the body,
+        they grant the user extra power, along with their unqiue abilities. Nowadays,
+        there are crystals used for everyday life, giving people the ability to light
+        fires easily, or project light from their fingertips.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: But, more powerful crystals are labelled as "Legendary" and are kept
+        as national treasures by countries and carried by heroes. It's not everyday
+        that you encounter a Legendary crystal, so cherish it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b740102e6dfdd834eafe00ee355090e3, type: 3}
+--- !u!4 &1626362892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1626362891}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8080568123539129806
 PrefabInstance:
@@ -6824,6 +7568,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988161, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798793473350988163, guid: b740102e6dfdd834eafe00ee355090e3,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Elemental Compatibility
       objectReference: {fileID: 0}
     - target: {fileID: 2798793473350988188, guid: b740102e6dfdd834eafe00ee355090e3,
         type: 3}

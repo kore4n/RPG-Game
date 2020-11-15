@@ -15,6 +15,10 @@ public class DialogueManager : MonoBehaviour
     // a queue is like an array
     private Queue<string> sentences;
 
+    // these 2 variables are changed in this script
+    private int index = -1;
+    private Dialogue dialogue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +29,12 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", true);
 
-        nameText.text = dialogue.name;
+        if (dialogue.names.Length == 0)
+        {
+            nameText.text = dialogue.name;
+        }
+        // an else isn't needed, the name is automatically filled from DisplayNextSentence
+        // as it's called immediately
 
         // clear old sentences from previous conversations
         sentences.Clear();
@@ -36,7 +45,16 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
+        this.dialogue = dialogue;
+
         DisplayNextSentence();
+    }
+
+    public void UpdateDialogue(int index)
+    {
+        // ADD IN THE FUNCTION ANYTHING THAT NEEDS TO BE UPDATED FROM TEXTBOX TO TEXTBOX
+        // Such as avatar, element symbol, character name, text font, etc...
+        nameText.text = dialogue.names[index];
     }
 
     public void DisplayNextSentence()
@@ -51,6 +69,10 @@ public class DialogueManager : MonoBehaviour
         // if stop sentence is already running, stop it and start a new one
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+
+        // update name of the speaker
+        UpdateDialogue(index + 1);
+        index += 1;
     }
 
     IEnumerator TypeSentence(string sentence)

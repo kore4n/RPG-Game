@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -91,6 +92,13 @@ public class PlayerController : MonoBehaviour
             LoadNewArea door = collision.gameObject.GetComponent<LoadNewArea>();
             door.EnterDoor();
         }
+        else if (interaction.interactableName == "ChestUnopened")
+        {
+            // close the chest
+            interaction.interactableName = "ChestOpened";
+            // add in code to allow player to pick up item
+            
+        }
     }
 
     void TryToMoveIntoScene(Collider2D collision, Interactable interaction)
@@ -123,6 +131,12 @@ public class PlayerController : MonoBehaviour
         {
             canMove = true;
         }
+
+        //// prevent player from moving if pointer is over UI
+        //if (EventSystem.current.IsPointerOverGameObject())
+        //{
+        //    return;
+        //}
 
         // check if the player can move
         if (canMove == true)

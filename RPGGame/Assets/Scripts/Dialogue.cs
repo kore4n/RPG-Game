@@ -6,11 +6,14 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue
 {
-    // name of npc
+    // names of npcs
+    [TextArea(1, 3)]
+    public string[] names;
+
     public string name;
 
     // attribute to change text area in text editor
     // min # lines, max # lines
-    [TextArea(3, 10)]
+    [TextArea(7, 12)]
     public string[] sentences;
 }
